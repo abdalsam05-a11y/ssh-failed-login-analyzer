@@ -1,0 +1,53 @@
+2026-10-02T11:35:22.117588-04:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-10-02T11:38:18.640455-04:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl enable --now rsyslog
+2026-10-02T11:38:18.642593-04:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-02T11:38:19.165550-04:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-10-02T11:38:50.191490-04:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2026-10-02T11:38:50.192696-04:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-02T11:38:50.296978-04:00 kali sshd[10392]: Server listening on 0.0.0.0 port 22.
+2026-10-02T11:38:50.298104-04:00 kali sshd[10392]: Server listening on :: port 22.
+2026-10-02T11:38:50.299063-04:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-10-02T11:39:01.450932-04:00 kali CRON[10484]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T11:39:01.458050-04:00 kali CRON[10484]: pam_unix(cron:session): session closed for user root
+2026-10-02T11:45:01.483607-04:00 kali CRON[13471]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T11:45:01.493051-04:00 kali CRON[13471]: pam_unix(cron:session): session closed for user root
+2026-10-02T11:47:36.159305-04:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+2026-10-02T11:47:36.161443-04:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-02T11:47:36.164701-04:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-10-02T11:48:23.967004-04:00 kali sshd-session[15150]: Invalid user admin from ::1 port 37164
+2026-10-02T11:48:31.335533-04:00 kali sshd-session[15150]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-02T11:48:31.335764-04:00 kali sshd-session[15150]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1 
+2026-10-02T11:48:33.492373-04:00 kali sshd-session[15150]: Failed password for invalid user admin from ::1 port 37164 ssh2
+2026-10-02T11:48:34.517465-04:00 kali sshd-session[15150]: Connection closed by invalid user admin ::1 port 37164 [preauth]
+2026-10-02T11:49:03.771913-04:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+2026-10-02T11:49:03.774014-04:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-02T11:49:03.777752-04:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-10-02T11:53:19.387434-04:00 kali unix_chkpwd[17608]: password check failed for user (root)
+2026-10-02T11:53:19.388594-04:00 kali sshd-session[17444]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-02T11:53:22.047106-04:00 kali sshd-session[17444]: Failed password for root from 127.0.0.1 port 56312 ssh2
+2026-10-02T11:53:23.799285-04:00 kali sshd-session[17444]: Connection closed by authenticating user root 127.0.0.1 port 56312 [preauth]
+2026-10-02T11:53:47.075985-04:00 kali sshd-session[17829]: Invalid user test from ::1 port 48566
+2026-10-02T11:53:52.658969-04:00 kali sshd-session[17829]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-02T11:53:52.659477-04:00 kali sshd-session[17829]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1 
+2026-10-02T11:53:54.252128-04:00 kali sshd-session[17829]: Failed password for invalid user test from ::1 port 48566 ssh2
+2026-10-02T11:53:54.845004-04:00 kali sshd-session[17829]: Connection closed by invalid user test ::1 port 48566 [preauth]
+2026-10-02T11:55:01.519685-04:00 kali CRON[18500]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T11:55:01.529322-04:00 kali CRON[18500]: pam_unix(cron:session): session closed for user root
+2026-10-02T11:55:09.290284-04:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/grep 'failed password' /var/log/auth.log
+2026-10-02T11:55:09.292749-04:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-02T11:55:09.298635-04:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-10-02T11:57:02.525353-04:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-10-02T11:57:02.528255-04:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-02T11:57:02.532756-04:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-10-02T12:04:49.435733-04:00 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-10-02T12:04:49.439870-04:00 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-10-02T12:05:01.555874-04:00 kali CRON[23498]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T12:05:01.564667-04:00 kali CRON[23498]: pam_unix(cron:session): session closed for user root
+2026-10-02T12:09:01.592340-04:00 kali CRON[25508]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T12:09:01.599033-04:00 kali CRON[25508]: pam_unix(cron:session): session closed for user root
+2026-10-02T12:15:01.619079-04:00 kali CRON[28581]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T12:15:01.624185-04:00 kali CRON[28581]: pam_unix(cron:session): session closed for user root
+2026-10-02T12:17:01.646104-04:00 kali CRON[29583]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T12:17:01.658387-04:00 kali CRON[29583]: pam_unix(cron:session): session closed for user root
+2026-10-02T12:17:11.753327-04:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali/ssh-log-analyzer ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+2026-10-02T12:17:11.755247-04:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
