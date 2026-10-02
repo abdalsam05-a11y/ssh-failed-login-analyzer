@@ -51,3 +51,116 @@
 2026-10-02T12:17:01.658387-04:00 kali CRON[29583]: pam_unix(cron:session): session closed for user root
 2026-10-02T12:17:11.753327-04:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali/ssh-log-analyzer ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
 2026-10-02T12:17:11.755247-04:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-02T12:17:11.756852-04:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-10-02T12:27:41.088409-04:00 kali CRON[32977]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T12:27:41.092571-04:00 kali CRON[32977]: pam_unix(cron:session): session closed for user root
+2026-10-02T12:35:01.164224-04:00 kali CRON[36477]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T12:35:01.167674-04:00 kali CRON[36477]: pam_unix(cron:session): session closed for user root
+2026-10-02T12:39:01.219939-04:00 kali CRON[38380]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T12:39:01.226293-04:00 kali CRON[38380]: pam_unix(cron:session): session closed for user root
+2026-10-02T12:45:01.284705-04:00 kali CRON[41297]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T12:45:01.292744-04:00 kali CRON[41297]: pam_unix(cron:session): session closed for user root
+2026-10-02T12:55:01.380390-04:00 kali CRON[46077]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T12:55:01.389646-04:00 kali CRON[46077]: pam_unix(cron:session): session closed for user root
+2026-10-02T13:05:01.507927-04:00 kali CRON[50847]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T13:05:01.515463-04:00 kali CRON[50847]: pam_unix(cron:session): session closed for user root
+2026-10-02T13:09:01.554542-04:00 kali CRON[52784]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T13:09:01.561471-04:00 kali CRON[52784]: pam_unix(cron:session): session closed for user root
+2026-10-02T13:15:01.643401-04:00 kali CRON[55690]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T13:15:01.651791-04:00 kali CRON[55690]: pam_unix(cron:session): session closed for user root
+2026-10-02T13:17:01.705749-04:00 kali CRON[56650]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T13:17:01.715970-04:00 kali CRON[56650]: pam_unix(cron:session): session closed for user root
+2026-10-02T13:25:01.802596-04:00 kali CRON[60499]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T13:25:01.811023-04:00 kali CRON[60499]: pam_unix(cron:session): session closed for user root
+2026-10-02T13:35:01.951476-04:00 kali CRON[65264]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T13:35:01.964616-04:00 kali CRON[65264]: pam_unix(cron:session): session closed for user root
+2026-10-02T13:39:02.029849-04:00 kali CRON[67177]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T13:39:02.035794-04:00 kali CRON[67177]: pam_unix(cron:session): session closed for user root
+2026-10-02T13:45:01.100849-04:00 kali CRON[70076]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T13:45:01.109863-04:00 kali CRON[70076]: pam_unix(cron:session): session closed for user root
+2026-10-02T13:55:01.219858-04:00 kali CRON[75049]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T13:55:01.229070-04:00 kali CRON[75049]: pam_unix(cron:session): session closed for user root
+2026-10-02T14:05:01.338584-04:00 kali CRON[79838]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T14:05:01.343442-04:00 kali CRON[79838]: pam_unix(cron:session): session closed for user root
+2026-10-02T14:09:01.399133-04:00 kali CRON[81789]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T14:09:01.405487-04:00 kali CRON[81789]: pam_unix(cron:session): session closed for user root
+2026-10-02T14:15:01.479749-04:00 kali CRON[84695]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T14:15:01.485649-04:00 kali CRON[84695]: pam_unix(cron:session): session closed for user root
+2026-10-02T14:17:01.525366-04:00 kali CRON[85652]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T14:17:01.530294-04:00 kali CRON[85652]: pam_unix(cron:session): session closed for user root
+2026-10-02T14:25:01.606505-04:00 kali CRON[89488]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T14:25:01.614480-04:00 kali CRON[89488]: pam_unix(cron:session): session closed for user root
+2026-10-02T14:35:01.728162-04:00 kali CRON[94282]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T14:35:01.732783-04:00 kali CRON[94282]: pam_unix(cron:session): session closed for user root
+2026-10-02T14:39:01.783586-04:00 kali CRON[96191]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T14:39:01.786744-04:00 kali CRON[96191]: pam_unix(cron:session): session closed for user root
+2026-10-02T14:45:01.832334-04:00 kali CRON[99136]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T14:45:01.838241-04:00 kali CRON[99136]: pam_unix(cron:session): session closed for user root
+2026-10-02T14:55:01.928937-04:00 kali CRON[103901]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T14:55:01.934410-04:00 kali CRON[103901]: pam_unix(cron:session): session closed for user root
+2026-10-02T15:05:01.031264-04:00 kali CRON[108682]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T15:05:01.039588-04:00 kali CRON[108682]: pam_unix(cron:session): session closed for user root
+2026-10-02T15:09:01.069950-04:00 kali CRON[110595]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T15:09:01.072794-04:00 kali CRON[110595]: pam_unix(cron:session): session closed for user root
+2026-10-02T15:15:01.138888-04:00 kali CRON[113525]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T15:15:01.146896-04:00 kali CRON[113525]: pam_unix(cron:session): session closed for user root
+2026-10-02T15:17:01.186003-04:00 kali CRON[114475]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T15:17:01.199761-04:00 kali CRON[114475]: pam_unix(cron:session): session closed for user root
+2026-10-02T15:25:01.275378-04:00 kali CRON[118295]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T15:25:01.288032-04:00 kali CRON[118295]: pam_unix(cron:session): session closed for user root
+2026-10-02T15:35:01.384428-04:00 kali CRON[123091]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T15:35:01.392537-04:00 kali CRON[123091]: pam_unix(cron:session): session closed for user root
+2026-10-02T15:39:01.437716-04:00 kali CRON[124994]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T15:39:01.443395-04:00 kali CRON[124994]: pam_unix(cron:session): session closed for user root
+2026-10-02T15:45:01.508017-04:00 kali CRON[127909]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T15:45:01.510937-04:00 kali CRON[127909]: pam_unix(cron:session): session closed for user root
+2026-10-02T15:55:01.624374-04:00 kali CRON[132673]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T15:55:01.632086-04:00 kali CRON[132673]: pam_unix(cron:session): session closed for user root
+2026-10-02T16:05:01.711929-04:00 kali CRON[137436]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T16:05:01.716086-04:00 kali CRON[137436]: pam_unix(cron:session): session closed for user root
+2026-10-02T16:09:01.766121-04:00 kali CRON[139349]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T16:09:01.768172-04:00 kali CRON[139349]: pam_unix(cron:session): session closed for user root
+2026-10-02T16:15:01.821678-04:00 kali CRON[142357]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T16:15:01.830203-04:00 kali CRON[142357]: pam_unix(cron:session): session closed for user root
+2026-10-02T16:15:15.264314-04:00 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-10-02T16:15:15.268203-04:00 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-10-02T16:17:01.881083-04:00 kali CRON[143448]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T16:17:01.890582-04:00 kali CRON[143448]: pam_unix(cron:session): session closed for user root
+2026-10-02T16:25:01.981374-04:00 kali CRON[147296]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T16:25:01.990471-04:00 kali CRON[147296]: pam_unix(cron:session): session closed for user root
+2026-10-02T16:26:54.707926-04:00 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-10-02T16:26:54.709018-04:00 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-10-02T16:35:01.091541-04:00 kali CRON[152415]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T16:35:01.102108-04:00 kali CRON[152415]: pam_unix(cron:session): session closed for user root
+2026-10-02T16:39:01.144267-04:00 kali CRON[154336]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T16:39:01.151239-04:00 kali CRON[154336]: pam_unix(cron:session): session closed for user root
+2026-10-02T16:45:01.216775-04:00 kali CRON[157332]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T16:45:01.230722-04:00 kali CRON[157332]: pam_unix(cron:session): session closed for user root
+2026-10-02T16:55:01.315667-04:00 kali CRON[162252]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-02T16:55:01.326151-04:00 kali CRON[162252]: pam_unix(cron:session): session closed for user root
+2026-10-02T16:58:28.967308-04:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali/ssh-log-analyzer ; USER=root ; COMMAND=/usr/bin/apt install sshpass
+2026-10-02T16:58:28.974735-04:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-02T16:58:37.259848-04:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-10-02T16:58:37.544473-04:00 kali sshd-session[164092]: Invalid user user2 from 127.0.0.1 port 57484
+2026-10-02T16:58:37.561100-04:00 kali sshd-session[164092]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-02T16:58:37.561562-04:00 kali sshd-session[164092]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-02T16:58:39.608883-04:00 kali sshd-session[164092]: Failed password for invalid user user2 from 127.0.0.1 port 57484 ssh2
+2026-10-02T16:58:39.806856-04:00 kali sshd-session[164092]: Connection closed by invalid user user2 127.0.0.1 port 57484 [preauth]
+2026-10-02T16:59:31.836186-04:00 kali sshd-session[164547]: Invalid user guest from 127.0.0.1 port 32988
+2026-10-02T16:59:31.848618-04:00 kali sshd-session[164547]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-02T16:59:31.849037-04:00 kali sshd-session[164547]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-02T16:59:33.838112-04:00 kali sshd-session[164547]: Failed password for invalid user guest from 127.0.0.1 port 32988 ssh2
+2026-10-02T16:59:33.986363-04:00 kali sshd-session[164547]: Connection closed by invalid user guest 127.0.0.1 port 32988 [preauth]
+2026-10-02T16:59:34.182618-04:00 kali sshd-session[164575]: Invalid user user1 from 127.0.0.1 port 33000
+2026-10-02T16:59:34.192770-04:00 kali sshd-session[164575]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-02T16:59:34.193007-04:00 kali sshd-session[164575]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-02T16:59:36.277036-04:00 kali sshd-session[164575]: Failed password for invalid user user1 from 127.0.0.1 port 33000 ssh2
+2026-10-02T16:59:36.979288-04:00 kali sshd-session[164575]: Failed password for invalid user user1 from 127.0.0.1 port 33000 ssh2
+2026-10-02T16:59:36.991906-04:00 kali sshd-session[164575]: Connection closed by invalid user user1 127.0.0.1 port 33000 [preauth]
+2026-10-02T16:59:37.155817-04:00 kali sshd-session[164603]: Invalid user user2 from 127.0.0.1 port 33012
+2026-10-02T16:59:37.158999-04:00 kali sshd-session[164603]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-02T16:59:37.159203-04:00 kali sshd-session[164603]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-02T16:59:39.253339-04:00 kali sshd-session[164603]: Failed password for invalid user user2 from 127.0.0.1 port 33012 ssh2
+2026-10-02T16:59:39.419494-04:00 kali sshd-session[164603]: Connection closed by invalid user user2 127.0.0.1 port 33012 [preauth]
+2026-10-02T17:00:30.446319-04:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali/ssh-log-analyzer ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+2026-10-02T17:00:30.447348-04:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
