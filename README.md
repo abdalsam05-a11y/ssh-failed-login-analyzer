@@ -12,46 +12,42 @@ A Python script that parses Linux SSH authentication logs (`auth.log`), counts f
 
 ## Why
 
-Built as a hands-on SOC/Blue Team practice project: generate real SSH failed-login traffic on a Kali Linux VM, then parse and detect it programmatically instead of manually grepping logs.
+Built as a hands-on SOC/Blue Team practice project: generate real SSH failed-login traffic, then parse and detect it programmatically instead of manually grepping logs.
 
 ## Usage
 
 \`\`\`bash
-python3 analyzer.py samples/auth_sample.log
+python3 analyzer.py samples/kali_attack_sample.log
 \`\`\`
 
 ## Example output
 
 \`\`\`
 Failed attempts per IP:
-  127.0.0.1: 6
-  ::1: 2
+  192.168.241.129: 10
 
 Failed attempts per username:
-  user2: 2
-  user1: 2
-  admin: 1
-  root: 1
-  test: 1
-  guest: 1
+  msfadmin: 10
 
 Suspicious IPs (>= 3 failed attempts):
-  [ALERT] 127.0.0.1 with 6 failed attempts
+  [ALERT] 192.168.241.129 with 10 failed attempts
 \`\`\`
 
 ## How the sample log was generated
 
-1. Installed and enabled \`rsyslog\` and \`openssh-server\` on Kali Linux (not present by default).
-2. Ran several SSH login attempts with wrong passwords against \`localhost\`/\`127.0.0.1\`, using valid and invalid usernames.
-3. Copied \`/var/log/auth.log\` into \`samples/auth_sample.log\` for reproducible testing.
+1. Set up a two-VM lab: Kali Linux (attacker) and Metasploitable 2 (target), both on the same host-only network.
+2. Used Hydra from Kali to run an SSH brute-force attempt against Metasploitable with a small custom wordlist of wrong passwords.
+3. Copied the relevant entries from Metasploitable's `/var/log/auth.log` into `samples/kali_attack_sample.log` for reproducible testing.
+
+An earlier version of this project used `samples/auth_sample.log`, generated from local SSH attempts on `127.0.0.1`/`::1` on a single machine — kept in the repo for reference.
 
 ## Screenshots
 
-See \`screenshots/\` for the setup process and the script detecting a brute-force pattern.
+See `screenshots/` for the setup process and the script detecting a brute-force pattern.
 
 ## Next steps (v2 ideas)
 
-- Treat \`::1\` and \`127.0.0.1\` as the same host (merge loopback addresses).
+- Treat `::1` and `127.0.0.1` as the same host (merge loopback addresses).
 - Add a time-window check (e.g. 5 attempts within 60 seconds) instead of a flat count.
 - Export results to CSV/JSON for use in a SIEM pipeline.
 - Package as a CLI tool with configurable threshold.
